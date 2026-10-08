@@ -1,0 +1,66 @@
+.profile-page-heading { margin-bottom: 18px; display: flex; align-items: end; justify-content: space-between; gap: 20px; }
+.profile-page-heading h1 { margin: 7px 0 4px; font: 500 29px var(--serif); }
+.profile-page-heading p { margin: 0; color: #718a9b; font-size: 10px; }
+.demo-profile-select { display: grid; gap: 5px; color: #648095; font-size: 8px; font-weight: 600; }
+.demo-profile-select select { min-width: 220px; height: 35px; padding: 0 9px; border: 1px solid #d5e2eb; border-radius: 4px; color: #315d7b; background: #fff; font-size: 9px; }
+.profile-progress { max-width: 800px; margin-bottom: 16px; padding: 11px 13px; border: 1px solid #e2e9ec; border-radius: 5px; background: #fff; }
+.profile-progress > div { margin-bottom: 8px; display: flex; justify-content: space-between; color: #698295; font-size: 9px; }
+.profile-progress strong { color: #1d6fa5; }
+.profile-progress > div span:last-child { color: #8798a1; font-size: 8px; }
+.profile-progress-track { height: 5px; display: block; border-radius: 4px; background: #e9eff2; overflow: hidden; }
+.profile-progress-track i { height: 100%; display: block; border-radius: 4px; background: linear-gradient(90deg, #1d6fa5, #8ec9e8); transition: width .3s; }
+.traveler-profile-layout { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(260px, .75fr); gap: 15px; align-items: start; }
+.traveler-profile-form { display: grid; gap: 11px; }
+.traveler-section, .traveler-dna-card, .profile-context-card { padding: 15px; border: 1px solid #e2e8e8; border-radius: 5px; background: #fff; }
+.traveler-section-title { margin-bottom: 12px; display: flex; align-items: flex-start; gap: 9px; }
+.traveler-section-title > span:first-child { width: 30px; height: 30px; flex: 0 0 auto; display: grid; place-items: center; border-radius: 4px; color: #1d6fa5; background: #e8f1f8; }
+.traveler-section-title h2 { margin: 1px 0 3px; color: #0b3c5d; font: 500 16px var(--serif); }
+.traveler-section-title p { margin: 0; color: #83939d; font-size: 8px; line-height: 1.6; }
+.slider-title-icon { font-size: 19px; }
+.traveler-fields { display: grid; gap: 10px; }
+.three-columns { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.traveler-fields .field-label { min-width: 0; color: #536f82; font-size: 8px; }
+.traveler-fields .field-label input, .traveler-fields .field-label select { height: 34px; padding: 0 8px; border-color: #dbe5ea; color: #315970; background: #fbfcfc; font-size: 9px; }
+.traveler-choice-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.traveler-choice-chips button { min-height: 29px; padding: 0 9px; display: inline-flex; align-items: center; gap: 5px; border: 1px solid #dce5e9; border-radius: 4px; color: #678194; background: #fff; font-size: 8px; cursor: pointer; }
+.traveler-choice-chips button:hover { border-color: #9ebed1; }
+.traveler-choice-chips .traveler-choice-selected { border-color: #92b6cc; color: #175b86; background: #eaf3f8; }
+.profile-subsection { margin: 12px 0; }
+.profile-subsection > strong { display: block; margin-bottom: 7px; color: #557184; font-size: 8px; }
+.style-ranges { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 13px; }
+.profile-range { min-width: 0; display: grid; gap: 6px; color: #557184; font-size: 8px; font-weight: 600; }
+.profile-range input[type=range] { width: 100%; height: 4px; accent-color: #1d6fa5; }
+.range-labels { display: flex; justify-content: space-between; gap: 4px; color: #8a9aa3; font-size: 7px; font-weight: 400; }
+.range-labels strong { color: #1d6fa5; font-weight: 600; }
+.profile-rhythm-fields { margin-top: 12px; }
+.children-ages { grid-template-columns: 1fr 1fr; margin-top: 12px; }
+.save-profile-button { justify-self: start; min-height: 40px; }
+.traveler-profile-aside { position: sticky; top: 15px; display: grid; gap: 10px; }
+.traveler-dna-card { padding: 17px; background: linear-gradient(150deg, #fff, #f2f7f8); }
+.traveler-dna-card > .eyebrow, .profile-context-card > .eyebrow { color: #718b9b; font-size: 8px; }
+.traveler-dna-card h2 { margin: 7px 0 6px; color: #0b3c5d; font: 500 19px/1.28 var(--serif); }
+.traveler-dna-card p { margin: 0; color: #637e8e; font-size: 8px; line-height: 1.7; }
+.traveler-radar { width: min(100%, 290px); display: block; margin: 4px auto -4px; }
+.traveler-radar text { fill: #597a8e; font: 8px Poppins, sans-serif; }
+.profile-context-card { display: grid; gap: 10px; }
+.context-line { display: flex; align-items: center; gap: 8px; }
+.context-line > span { width: 26px; height: 26px; flex: 0 0 auto; display: grid; place-items: center; border-radius: 50%; color: #1d6fa5; background: #edf4f8; font-size: 12px; }
+.context-line > div { min-width: 0; display: grid; gap: 3px; }
+.context-line small { color: #83949e; font-size: 7px; }
+.context-line strong { overflow: hidden; color: #456579; font-size: 8px; text-overflow: ellipsis; white-space: nowrap; }
+.profile-privacy-note { padding: 10px; display: flex; align-items: flex-start; gap: 7px; border-radius: 4px; color: #657f89; background: #f8f3e8; font-size: 8px; line-height: 1.6; }
+.profile-privacy-note svg { flex: 0 0 auto; color: #d9822b; }
+.ranked-offer-card .recommend-info p { min-height: 24px; margin: 4px 0 8px; color: #71899a; font-size: 8px; line-height: 1.5; }
+.offer-match-score { display: flex; align-items: center; justify-content: space-between; color: #6f8796; font-size: 8px; }
+.offer-match-score strong { color: #1d6fa5; font-size: 9px; }
+.ranked-offer-card .recommend-image, .ranked-discover-grid .discover-image { background-color: #dce9ef; }
+.discover-controls { margin: -9px 0 15px; display: flex; align-items: end; justify-content: space-between; gap: 12px; }
+.discover-controls label { display: grid; gap: 4px; color: #718a9b; font-size: 8px; }
+.discover-controls select { min-width: 180px; height: 33px; padding: 0 8px; border: 1px solid #d6e2e9; border-radius: 4px; background: #fff; color: #315d7b; font-size: 9px; }
+.discover-controls > span { color: #80929d; font-size: 8px; }
+.ranked-discover-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.ranked-discover-grid .discover-image { position: relative; }
+.discover-match { position: absolute; right: 8px; bottom: 8px; padding: 5px 7px; border-radius: 3px; color: #174f75; background: #fff; font-size: 8px; font-weight: 600; }
+.discover-reason { display: block; margin: 8px 12px 0; color: #748b99; font-size: 8px; }
+@media (max-width: 780px) { .traveler-profile-layout { grid-template-columns: 1fr; }.traveler-profile-aside { position: static; grid-template-columns: 1fr 1fr; }.traveler-dna-card { grid-row: span 2; }.three-columns { grid-template-columns: 1fr 1fr; }.profile-page-heading { align-items: flex-start; flex-direction: column; }.demo-profile-select, .demo-profile-select select { width: 100%; }.ranked-discover-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 430px) { .traveler-profile-aside { grid-template-columns: 1fr; }.traveler-dna-card { grid-row: auto; }.three-columns, .style-ranges, .children-ages { grid-template-columns: 1fr; }.profile-page-heading h1 { font-size: 25px; }.ranked-discover-grid { grid-template-columns: 1fr; }.discover-controls { align-items: flex-start; flex-direction: column; }.ranked-offer-card .recommend-info h3 { white-space: normal; } }
